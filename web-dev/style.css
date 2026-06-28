@@ -4,7 +4,7 @@ div
     background-color: aqua;
     padding: 10px;
     margin: 10px;
-    border: 10px outset black;
+    border: 10px groove black;
     height: 100px;
     box-sizing: border-box;
 }
@@ -15,9 +15,16 @@ span
     background-color: brown;
 }
 
+.xyz{
+    text-align: center;
+    background-color: pink;
+}
 .xyz:hover
 {
+    font-size: 18px;
     color: red;
+    letter-spacing: 5px;
+    text-decoration: underline;
 }
 
 a:active
@@ -37,6 +44,6 @@ a:visited
 
 a{
     background-color: blueviolet;
-    color: blanchedalmond;
+    color: rgb(233, 213, 213);
 }
 
