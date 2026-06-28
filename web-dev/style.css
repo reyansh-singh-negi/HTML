@@ -2,11 +2,41 @@ div
 {
     color: red;
     background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    border: 10px outset black;
+    height: 100px;
+    box-sizing: border-box;
 }
 
 span
 {
     color: blueviolet;
     background-color: brown;
+}
+
+.xyz:hover
+{
+    color: red;
+}
+
+a:active
+{
+    background-color: aqua;
+}
+
+a:hover
+{
+    background-color: brown;
+}
+
+a:visited
+{
+    background-color: yellow;
+}
+
+a{
+    background-color: blueviolet;
+    color: blanchedalmond;
 }
 
